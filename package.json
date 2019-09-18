@@ -1,6 +1,6 @@
 {
     "name": "clang-wasm",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "description": "Binary publish of clang-wasm.",
     "main": "index.js",
     "binaryNames": [
