@@ -84,7 +84,7 @@ for(let binObj of matchingSystems) {
     }
 }
 
-for(let name in Object.key(binLookup)) {
+for(let name in Object.keys(binLookup)) {
     exportsObj[name] = runBinary.bind(null, name);
 }
 
