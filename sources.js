@@ -1,4 +1,5 @@
-export function sources() {
+module.exports = {};
+module.exports.sources = function sources() {
     /** @type {
         [packageName: string]: {
             // Ex, { platform: "win32", arch: "x64" }. Every key is mapped to process[key]
@@ -30,4 +31,4 @@ export function sources() {
 // AUTO_GENERATED_SOURCES_END
     )
     ;
-}
+};
