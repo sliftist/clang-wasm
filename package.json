@@ -1,6 +1,6 @@
 {
     "name": "clang-wasm",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Binary publish of clang-wasm.",
     "main": "index.js",
     "binaryNames": [
@@ -22,6 +22,7 @@
         "clang.js"
     ],
     "optionalDependencies": {
-        "clang-win32-x64": "8.0.1"
+        "clang-win32-x64": "8.0.1",
+        "clang-wasm-win64": "8.0.1"
     }
 }

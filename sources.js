@@ -25,6 +25,16 @@ export function sources() {
         "binaries": {
             "clang": "clang.exe"
         }
+    },
+    "clang-wasm-win64": {
+        "jsSystemInfo": {
+            "platform": "win32",
+            "arch": "x64"
+        },
+        "packageName": "clang-wasm-win64",
+        "binaries": {
+            "clang": "clang.exe"
+        }
     }
 }
 // AUTO_GENERATED_SOURCES_END
