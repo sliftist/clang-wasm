@@ -1,12 +1,14 @@
 {
     "name": "clang-wasm",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Binary publish of clang-wasm.",
     "main": "index.js",
     "binaryNames": [
         "clang"
     ],
-    "additionalFiles": [],
+    "additionalFiles": [
+        "wasm-ld"
+    ],
     "repository": "git@github.com:sliftist/clang-wasm.git",
     "author": "sliftist <sliftist@gmail.com>",
     "bin": {
