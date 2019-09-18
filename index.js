@@ -1,6 +1,6 @@
 const child_process = require("child_process");
 
-const sourceCode = require("./sources");
+const sourceCode = require("./sources").sources;
 
 /** @type {
     [packageName: string]: {
