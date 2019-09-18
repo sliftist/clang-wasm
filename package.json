@@ -22,7 +22,6 @@
         "clang.js"
     ],
     "optionalDependencies": {
-        "clang-win32-x64": "8.0.1",
         "clang-wasm-win64": "8.0.1"
     }
 }
