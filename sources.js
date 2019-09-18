@@ -26,6 +26,16 @@ module.exports.sources = function sources() {
         "binaries": {
             "clang": "clang.exe"
         }
+    },
+    "clang-darwin-x64": {
+        "jsSystemInfo": {
+            "platform": "darwin",
+            "arch": "x64"
+        },
+        "packageName": "clang-darwin-x64",
+        "binaries": {
+            "clang": "clang"
+        }
     }
 }
 // AUTO_GENERATED_SOURCES_END
