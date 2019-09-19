@@ -36,6 +36,16 @@ module.exports.sources = function sources() {
         "binaries": {
             "clang": "clang"
         }
+    },
+    "clang-linux-x64": {
+        "jsSystemInfo": {
+            "platform": "linux",
+            "arch": "x64"
+        },
+        "packageName": "clang-linux-x64",
+        "binaries": {
+            "clang": "clang"
+        }
     }
 }
 // AUTO_GENERATED_SOURCES_END
